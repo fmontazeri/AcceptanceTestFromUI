@@ -1,0 +1,23 @@
+﻿@model  Student
+@{
+    ViewData["Title"] = "Register a student";
+}
+
+<h1>Index</h1>
+
+<div class="alert alert-primary">
+    <label asp-for="Name" id="lbl-name">@Model.Name</label> &nbsp;
+    <label asp-for="Family" id="lbl-family">@Model.Family</label>
+</div>
+<form  asp-action="Index" asp-controller="Student" asp-method="post" >
+    <div>
+        <input asp-for="Name" placeholder="Enter your Name" id="name"/>
+    </div>
+    <div>
+        <input asp-for="Family" placeholder="Enter your Family"  id="family" />
+    </div>
+    <div>
+        <input type="submit" value="Register"/>
+    </div>
+</form>
+
