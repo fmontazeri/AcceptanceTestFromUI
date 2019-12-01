@@ -12,6 +12,6 @@ Install-Package  Selenium.WebDriver.ChromeDriver
 Headless Browser
 Install-Package  SpecFlow.PhantomJs.WebDriver
 
-Run Acceptance Test need a runner 
+Run Acceptance Tests need a runner 
 e.g. Install-Package xunit.ruuner.visualstudio
 
