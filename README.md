@@ -38,3 +38,4 @@ https://specflow.org/documentation/Generate-Tests-from-MsBuild/</p>
 https://specflow.org/2018/specflow-3-public-preview-now-available/<br />
 &nbsp;</p>
 
+See another sample https://github.com/techtalk/SpecFlow-Examples/tree/master/ASP.NET-MVC/BookShop
